@@ -1,0 +1,8 @@
+{
+  "name": "EnhancementTurret",
+  "displayName": "EnhancementTurret",
+  "author": "NoitaminAoki",
+  "description": "A mod that modify existing turret just for fun",
+  "version": "0.1.0",
+  "minGameVersion": "145"
+}
