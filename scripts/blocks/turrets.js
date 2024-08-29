@@ -1,0 +1,10 @@
+require("turrets/duo");
+require("turrets/cyclone");
+require("turrets/foreshadow");
+require("turrets/meltdown");
+require("turrets/ripple");
+require("turrets/salvo");
+require("turrets/scatter");
+require("turrets/spectre");
+require("turrets/swarmer");
+require("turrets/tsunami");
