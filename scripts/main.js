@@ -1,6 +1,7 @@
 require("turrets/duo");
 require("turrets/cyclone");
 require("turrets/foreshadow");
+require("turrets/hail");
 require("turrets/meltdown");
 require("turrets/ripple");
 require("turrets/salvo");
