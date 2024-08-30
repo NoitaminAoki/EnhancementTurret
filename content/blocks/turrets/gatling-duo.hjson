@@ -1,12 +1,12 @@
 type: ItemTurret
 name: Gatling Duo
 description: A more advanced version of the Duo.
-health: 400
+health: 900
 size: 1
 recoil: 0.5
 shootY: 3
-reload: 5
-range: 150
+reload: 7
+range: 240
 shootCone: 15
 ammoUseEffect: casing1
 inaccuracy: 1
@@ -17,24 +17,24 @@ researchCostMultiplier: 0.5
 
 ammoTypes: {
   copper: {
-    damage: 10
+    damage: 20
     speed: 2.5
     width: 7
     height: 9
-    lifetime: 45
+    lifetime: 90
     ammoMultiplier: 2
   }
   graphite: {
-    damage: 18
+    damage: 38
     speed: 3.5
     width: 9
     height: 12
-    reloadMultiplier: 0.6
+    reloadMultiplier: 2.0
     ammoMultiplier: 4
-    lifetime: 32.15
+    lifetime: 77.15
   }
   pyratite: {
-    damage: 16
+    damage: 36
     speed: 3.5
     width: 8
     height: 10
@@ -46,17 +46,17 @@ ammoTypes: {
     splashDamage: 8
     splashDamageRadius: 13.5
     makeFire: true
-    lifetime: 32.15
+    lifetime: 77.15
   }
   silicon: {
-    damage: 12
+    damage: 32
     speed: 3
     width: 7
     height: 9
     homingPower: 0.11
     reloadMultiplier: 1.5
     ammoMultiplier: 5
-    lifetime: 38.575
+    lifetime: 83.575
   }
 }
 
@@ -64,12 +64,13 @@ shoot: {
   type: ShootAlternate
   shots: 2
   spread: 3.5
-  shotDelay: 9.75
+  shotDelay: 4
 }
  
 requirements: [
 copper/15
-titanium/35
+lead/35
+graphite/20
 ]
 category: turret
 research: duo
